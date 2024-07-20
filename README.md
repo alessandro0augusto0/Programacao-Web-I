@@ -1,5 +1,9 @@
 # Trabalhos de Programação Web I
 
+Os dois trabalhos a seguir foram realizados na disciplina de Programação Web I, no 4º período do curso de Engenharia de Computação do IFSULDEMINAS, campus Poços de Caldas.
+
+---
+
 ## 1º Trabalho – Página Pessoal
 
 ### Descrição
