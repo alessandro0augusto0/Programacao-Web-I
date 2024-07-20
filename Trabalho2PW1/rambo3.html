@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rambo 3</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #d1b84f 0%, #c2a85b 50%, #b69d4c 100%);
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .filme-info {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            margin: 20px;
+        }
+
+        .filme-info h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #f5f5f5;
+        }
+
+        .filme-info p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .filme-info p strong {
+            color: #f5f5f5;
+        }
+
+        .filme-info img {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .filme-info img:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            .filme-info {
+                padding: 20px;
+            }
+
+            .filme-info h2 {
+                font-size: 2rem;
+            }
+
+            .filme-info p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="filme-info">
+        <h2>Rambo 3</h2>
+        <p><strong>Diretor:</strong> Peter MacDonald</p>
+        <p><strong>Atores:</strong> Sylvester Stallone, Richard Crenna, Marc de Jonge, Kurtwood Smith, entre outros.</p>
+        <p><strong>Gênero:</strong> Ação/Aventura</p>
+        <p><strong>Censura:</strong> 18 anos</p>
+        <p><strong>Tempo de Duração:</strong> 102 minutos</p>
+        <p><strong>Sinopse:</strong> John Rambo é convocado para uma missão no Afeganistão para resgatar seu amigo e mentor, Coronel Trautman, que foi capturado pelos soviéticos durante a guerra. Ele enfrenta desafios épicos em um território hostil para cumprir sua missão.</p>
+        <img src="img/rambo3.jpg" alt="Rambo 3">
+    </div>
+</body>
+
+</html>

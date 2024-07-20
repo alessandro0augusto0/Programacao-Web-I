@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineWeb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('img/camera.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: border-bottom 0.3s ease-in-out;
+        }
+
+        .header a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        .content {
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .content li {
+            margin: 10px 0;
+        }
+
+        .content a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.2em;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .content a:hover {
+            color: #0056b3;
+        }
+
+        .film-images img {
+            width: 150px;
+            height: auto;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="paginaInicial.html">Página Inicial</a>
+        <a href="filmes.html">Filmes</a>
+        <a href="trailers.html">Trailers</a>
+        <a href="trilhaSonora.html">Trilha Sonora</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+        <a class="logout" href="index.html">Sair</a>
+    </div>
+    <div class="content">
+        <h2>Escolha o filme para ouvir a trilha sonora:</h2>
+        <ul>
+            <li><a href="trilhaSonoraFilmesDeAventura.html">Aventura</a></li>
+            <li><a href="trilhaSonoraFilmesDeAcao.html">Ação</a></li>
+            <li><a href="trilhaSonoraFilmesDeComedia.html">Comédia</a></li>
+        </ul>
+
+        <h2>Filmes:</h2>
+        <div class="film-images">
+            <a href="trilhaSonoraRambo1.html" target="_blank"><img src="img/rambo1.jpg" alt="capa do filme rambo 1"></a>
+            <a href="trilhaSonoraRambo2.html" target="_blank"><img src="img/rambo2.jpg" alt="capa do filme rambo 2"></a>
+            <a href="trilhaSonoraRambo3.html" target="_blank"><img src="img/rambo3.jpg" alt="capa do filme rambo 3"></a>
+            <a href="trilhaSonoraRambo4.html" target="_blank"><img src="img/rambo4.jpg" alt="capa do filme rambo 4"></a>
+            <a href="trilhaSonoraRambo5.html" target="_blank"><img src="img/rambo5.jpg" alt="capa do filme rambo 5"></a>
+        </div>
+    </div>
+</body>
+
+</html>

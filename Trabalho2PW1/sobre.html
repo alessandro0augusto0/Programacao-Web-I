@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('img/logocineweb.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+        }
+
+        .header a:hover {
+            border-bottom: 2px solid #fff;
+        }
+
+        .content {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .profile-info {
+            text-align: left;
+        }
+
+        .profile-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .profile-info .name,
+        .profile-info p {
+            background-color: #fff;
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .logo {
+            position: fixed;
+            top: 0px;
+            right: 0px;
+        }
+
+        .logo img {
+            width: 90px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="paginaInicial.html">Página Inicial</a>
+        <a href="filmes.html">Filmes</a>
+        <a href="trailers.html">Trailers</a>
+        <a href="trilhaSonora.html">Trilha Sonora</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+        <a class="logout" href="index.html">Sair</a>
+        <div class="logo">
+            <img src="img/logocineweb2.png" alt="logotipo do cineweb">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="profile">
+            <img src="img/eu.jpg" alt="Foto do Autor">
+            <div class="profile-info">
+                <div class="name"><strong><u>Criador do site</u></strong></div><br>
+                <p>Alessandro Augusto Ferreira Dias</p><br>
+                <p>Email: email@aqui.com</p><br>
+                <p>Telefone: (35) telefone aqui</p><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

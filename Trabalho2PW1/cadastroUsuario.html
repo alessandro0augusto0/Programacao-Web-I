@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        .register-container {
+            width: 60%;
+            max-width: 800px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-height: 1000px;
+            margin: auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group button {
+            padding: 15px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .genres-checkboxes input {
+            margin: 10px 10px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="register-container">
+        <h2>Cadastre-se</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Digite seu nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Forneça o seu e-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmEmail">Confirme o seu e-mail:</label>
+                <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirme seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Escolha um nome de usuário:</label>
+                <input type="text" id="username" name="username" placeholder="Escolha um nome de usuário" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Escolha uma senha:</label>
+                <input type="password" id="password" name="password" placeholder="Escolha uma senha segura" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirme a sua senha:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirme sua senha"
+                    required>
+            </div>
+            <div class="form-group genres-checkboxes">
+                <label>Quais tipos de filme você gosta?</label><br>
+                <input type="checkbox" name="genres[]" value="acao"> Ação<br>
+                <input type="checkbox" name="genres[]" value="aventura"> Aventura<br>
+                <input type="checkbox" name="genres[]" value="comedia"> Comédia<br>
+                <input type="checkbox" name="genres[]" value="romance"> Romance<br>
+                <input type="checkbox" name="genres[]" value="terror"> Terror<br>
+                <input type="checkbox" name="genres[]" value="ficcao"> Ficção Científica<br>
+                <input type="checkbox" name="genres[]" value="outro"> Outro (Especifique):<br>
+                <input type="text" name="otherGenre" placeholder="Digite outros gêneros que você gosta">
+            </div>
+            <div class="form-group">
+                <button type="submit">Cadastrar</button>
+            </div>
+            <div class="form-group">
+                <a href="index.html">Voltar</a>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

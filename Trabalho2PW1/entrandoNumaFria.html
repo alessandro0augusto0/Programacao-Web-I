@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrando Numa Fria</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #ff9a8b 0%, #ff6a88 50%, #d87a80 100%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .filme-info {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            margin: 20px;
+        }
+
+        .filme-info h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .filme-info p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .filme-info p strong {
+            color: #333;
+        }
+
+        .filme-info img {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .filme-info img:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            .filme-info {
+                padding: 20px;
+            }
+
+            .filme-info h2 {
+                font-size: 2rem;
+            }
+
+            .filme-info p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="filme-info">
+        <h2>Entrando Numa Fria</h2>
+        <p><strong>Diretor:</strong> Jay Roach</p>
+        <p><strong>Atores:</strong> Ben Stiller, Robert De Niro, Teri Polo, Blythe Danner, entre outros.</p>
+        <p><strong>Gênero:</strong> Comédia</p>
+        <p><strong>Censura:</strong> 14 anos</p>
+        <p><strong>Tempo de Duração:</strong> 108 minutos</p>
+        <p><strong>Sinopse:</strong> Greg Focker está prestes a pedir a namorada Pam em casamento, mas antes ele precisa
+            conquistar o pai dela, Jack Byrnes, um ex-agente da CIA com um jeito muito protetor. As coisas ficam ainda
+            mais complicadas quando Greg fica envolvido em uma série de situações embaraçosas durante um fim de semana
+            com a família de Pam.</p>
+        <img src="img/entrandonumafria.jpg" alt="Entrando Numa Fria">
+    </div>
+</body>
+
+</html>
