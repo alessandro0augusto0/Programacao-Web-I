@@ -1,6 +1,6 @@
 # Trabalhos de Programação Web I
 
-Os dois trabalhos a seguir foram realizados na disciplina de Programação Web I, no 4º período do curso de Engenharia de Computação do IFSULDEMINAS, campus Poços de Caldas.
+Os dois trabalhos a seguir foram realizados na disciplina de Programação Web I, no 4º período do curso de Engenharia de Computação do IFSULDEMINAS, campus Poços de Caldas. O trabalho foi hospedado na plataforma 000webhost que encerrou suas operações no dia 01/09/2024, então o usuário fica livre para escolher outra plataforma para hospedagem. 
 
 ---
 
